@@ -13,6 +13,7 @@ BuildRequires:  pkgconfig(Qt5Gui)
 BuildRequires:  pkgconfig(Qt5Network)
 BuildRequires:  pkgconfig(Qt5PrintSupport)
 BuildRequires:  pkgconfig(Qt5Widgets)
+BuildRequires:	boost-devel
 
 BuildRequires:  cmake(ECM)
 BuildRequires:	cmake(KF5Akonadi)
