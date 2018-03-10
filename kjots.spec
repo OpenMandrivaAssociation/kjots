@@ -15,6 +15,7 @@ BuildRequires:  pkgconfig(Qt5PrintSupport)
 BuildRequires:  pkgconfig(Qt5Widgets)
 
 BuildRequires:  cmake(ECM)
+BuildRequires:	cmake(KF5Akonadi)
 BuildRequires:  cmake(KF5KCMUtils)
 BuildRequires:  cmake(KF5KIO)
 BuildRequires:  cmake(KF5Config)
