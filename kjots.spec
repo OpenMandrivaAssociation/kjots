@@ -1,6 +1,6 @@
 Name:           kjots
 Version:        5.0.2
-Release:        2
+Release:        3
 Summary:        Note Taker for Plasma 5
 Group:          Office
 License:        GPLv2 and LGPLv2+
