@@ -1,6 +1,6 @@
 Name:           kjots
-Version:        5.0.2
-Release:        3
+Version:        5.1.1
+Release:        1
 Summary:        Note Taker for Plasma 5
 Group:          Office
 License:        GPLv2 and LGPLv2+
@@ -15,7 +15,7 @@ BuildRequires:  pkgconfig(Qt5PrintSupport)
 BuildRequires:  pkgconfig(Qt5Widgets)
 
 BuildRequires:  cmake(ECM)
-BuildRequires:	cmake(KF5Akonadi)
+BuildRequires:  cmake(KF5Akonadi)
 BuildRequires:  cmake(KF5KCMUtils)
 BuildRequires:  cmake(KF5KIO)
 BuildRequires:  cmake(KF5Config)
