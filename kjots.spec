@@ -50,18 +50,18 @@ Features :
 %{_kde5_bindir}/kjots
 %{_qt5_plugindir}/kjotspart.so
 %{_qt5_plugindir}/kcm_kjots.so
-%{_qt5_plugindir}/kontact_kjotsplugin.so
+#{_qt5_plugindir}/kontact_kjotsplugin.so
 %{_kde5_applicationsdir}/org.kde.%{name}.desktop
 %{_kde5_datadir}/metainfo/org.kde.%{name}.appdata.xml
 %{_kde5_datadir}/config.kcfg/%{name}.kcfg
 %{_kde5_datadir}/%{name}/
 %{_kde5_datadir}/kxmlgui5/%{name}/
-%{_kde5_datadir}/kontact/ksettingsdialog/%{name}.setdlg
+#{_kde5_datadir}/kontact/ksettingsdialog/%{name}.setdlg
 %{_kde5_services}/%{name}_config_misc.desktop
 %{_kde5_services}/%{name}part.desktop
-%{_kde5_services}/kontact/kjotsplugin.desktop
+#{_kde5_services}/kontact/kjotsplugin.desktop
 %{_kde5_iconsdir}/hicolor/*/apps/%{name}.*
-%{_kde5_iconsdir}/oxygen/*/actions/edit-delete-page.*
+#{_kde5_iconsdir}/oxygen/*/actions/edit-delete-page.*
 
 #-------------------------------------------------------------------
 
