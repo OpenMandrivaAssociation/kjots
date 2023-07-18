@@ -46,7 +46,7 @@ Features :
    - Automatic saving means your notes are safe from loss.
 
 %files -f %{name}.lang
-%doc README COPYING*
+%doc README
 %{_kde5_bindir}/kjots
 %{_qt5_plugindir}/kjotspart.so
 %{_qt5_plugindir}/kcm_kjots.so
