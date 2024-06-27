@@ -1,11 +1,11 @@
 Name:           kjots
-Version:        5.1.1
-Release:        3
+Version:        6.0.0
+Release:        1
 Summary:        Note Taker for Plasma 5
 Group:          Office
 License:        GPLv2 and LGPLv2+
 Url:            https://www.kde.org/applications/utilities/kjots/
-Source0:        http://download.kde.org/stable/kjots/%{version}/%{name}-%{version}.tar.xz
+Source0:        https://download.kde.org/stable/kjots/%{version}/%{name}-%{version}.tar.xz
 
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5DBus)
@@ -27,7 +27,7 @@ BuildRequires:  cmake(KF5Akonadi)
 BuildRequires:  cmake(KF5Mime)
 BuildRequires:  cmake(KF5AkonadiNotes)
 BuildRequires:  cmake(KF5PimTextEdit)
-BuildRequires:  cmake(KF5KontactInterface)
+#BuildRequires:  cmake(KF5KontactInterface)
 BuildRequires:  cmake(Grantlee5)
 BuildRequires:  cmake(KF5I18n)
 BuildRequires:  cmake(KF5KDELibs4Support)
